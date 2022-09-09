@@ -9,9 +9,9 @@ const Header = () => {
         <>
             <Navbar bg="dark" variant="dark" style={{height:"60px"}}>
                 <Container>
-                    <NavLink to="/Navbar/Home" className="text-decoration-none text-light mx-2">Home</NavLink>
+                    <NavLink to="/internship/Navbar/Home" className="text-decoration-none text-light mx-2">Home</NavLink>
                     <Nav className="me-auto">
-                        <NavLink to="/Navbar/Register" className="text-decoration-none text-light mx-2">Register</NavLink>
+                        <NavLink to="/internship/Navbar/Register" className="text-decoration-none text-light mx-2">Register</NavLink>
                     </Nav>
                 </Container>
             </Navbar>

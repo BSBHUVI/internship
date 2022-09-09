@@ -16,12 +16,12 @@ function App() {
     
 <Usercontext>
       <Routes>
-      <Route path='/' element={ <Signup />} />
-      <Route path='/login' element={ <Login />} />
-      <Route path='/Navbar' element={<Protectedroutes> <Header /></Protectedroutes>} >
+      <Route path='/internship' element={ <Signup />} />
+      <Route path='/internship/login' element={ <Login />} />
+      <Route path='/internship/Navbar' element={<Protectedroutes> <Header /></Protectedroutes>} >
       
-        <Route path='/Navbar/Home' element={<Protectedroutes> <Home /></Protectedroutes>} />
-        <Route path='/Navbar/Register' element={<Protectedroutes> <Register /></Protectedroutes>} />
+        <Route path='/internship/Navbar/Home' element={<Protectedroutes> <Home /></Protectedroutes>} />
+        <Route path='/internship/Navbar/Register' element={<Protectedroutes> <Register /></Protectedroutes>} />
         </Route>
        
       </Routes>

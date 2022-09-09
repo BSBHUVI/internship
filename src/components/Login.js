@@ -12,7 +12,7 @@ function Login() {
     e.preventDefault()
     try{
       await login(email,password)
-      navigate("/Navbar/Register")
+      navigate("/internship/Navbar/Register")
 
     }catch(err){
       alert(err.message)
@@ -39,7 +39,7 @@ function Login() {
       <input value={password} onChange={(e)=>{setPassword(e.target.value)}} autoComplete="off"  id="logpass" placeholder="Password" className="input-field" name="logpass" type="password"/>
     </div>
     <button onClick={handlesubmit} className="btn" type="submit">LOGIN</button>
-    <span className='title' >Create a new Account <Link to="/">SIGN UP</Link></span>
+    <span className='title' >Create a new Account <Link to="/internship">SIGN UP</Link></span>
     
 
   

@@ -5,7 +5,7 @@ import {useUserAuth} from "../context/Usercontext"
 function Protectedroutes({children}) {
     const {user}=useUserAuth()
     if (!user){
-        return <Navigate to='/'/>
+        return <Navigate to='/internship'/>
     }
   return  children
 }

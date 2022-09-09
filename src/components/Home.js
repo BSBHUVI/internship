@@ -12,7 +12,7 @@ const Home = () => {
     const navigate=useNavigate()
     const submit=()=>{
         alert("Thank you")
-        navigate('/Navbar/Register')
+        navigate('/internship/Navbar/Register')
 
     }
 
@@ -22,7 +22,7 @@ const Home = () => {
   
 
     const getUserData = async () => {
-        const res = await axios.get("/getdata", {
+        const res = await axios.get("https://customerdetailsbhuvi.herokuapp.com/getdata", {
             headers: {
                 "Content-Type": "application/json"
             }

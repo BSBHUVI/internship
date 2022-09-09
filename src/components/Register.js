@@ -42,12 +42,12 @@ const Register = () => {
       }
     }
 
-    const res = await axios.post("/register", formData, config);
+    const res = await axios.post("https://customerdetailsbhuvi.herokuapp.com/register", formData, config);
 
     if (res.data.status === 401 || !res.data) {
       console.log("errror")
     } else {
-      history("/Navbar/Home")
+      history("/internship/Navbar/Home")
     }
   }
 
