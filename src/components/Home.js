@@ -15,6 +15,7 @@ const Home = () => {
         navigate('/internship/Navbar/Register')
 
     }
+    console.log(data)
 
    
   
